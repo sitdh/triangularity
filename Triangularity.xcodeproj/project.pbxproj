@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE3299001BDA4CDE00AD74DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3298FF1BDA4CDE00AD74DC /* AppDelegate.swift */; };
+		AE3299021BDA4CDE00AD74DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3299011BDA4CDE00AD74DC /* ViewController.swift */; };
+		AE3299051BDA4CDE00AD74DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3299031BDA4CDE00AD74DC /* Main.storyboard */; };
+		AE3299071BDA4CDE00AD74DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3299061BDA4CDE00AD74DC /* Assets.xcassets */; };
+		AE32990A1BDA4CDE00AD74DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3299081BDA4CDE00AD74DC /* LaunchScreen.storyboard */; };
+		AE3299151BDA4CDE00AD74DC /* TriangularityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3299141BDA4CDE00AD74DC /* TriangularityTests.swift */; };
+		AE3299201BDA4CDF00AD74DC /* TriangularityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE32991F1BDA4CDF00AD74DC /* TriangularityUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE3299111BDA4CDE00AD74DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE3298F41BDA4CDD00AD74DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE3298FB1BDA4CDD00AD74DC;
+			remoteInfo = Triangularity;
+		};
+		AE32991C1BDA4CDF00AD74DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE3298F41BDA4CDD00AD74DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE3298FB1BDA4CDD00AD74DC;
+			remoteInfo = Triangularity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE3298FC1BDA4CDE00AD74DC /* Triangularity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Triangularity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3298FF1BDA4CDE00AD74DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE3299011BDA4CDE00AD74DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE3299041BDA4CDE00AD74DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE3299061BDA4CDE00AD74DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE3299091BDA4CDE00AD74DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE32990B1BDA4CDE00AD74DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE3299101BDA4CDE00AD74DC /* TriangularityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriangularityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3299141BDA4CDE00AD74DC /* TriangularityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangularityTests.swift; sourceTree = "<group>"; };
+		AE3299161BDA4CDE00AD74DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE32991B1BDA4CDF00AD74DC /* TriangularityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriangularityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE32991F1BDA4CDF00AD74DC /* TriangularityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangularityUITests.swift; sourceTree = "<group>"; };
+		AE3299211BDA4CDF00AD74DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE3298F91BDA4CDD00AD74DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE32990D1BDA4CDE00AD74DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE3299181BDA4CDE00AD74DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE3298F31BDA4CDD00AD74DC = {
+			isa = PBXGroup;
+			children = (
+				AE3298FE1BDA4CDE00AD74DC /* Triangularity */,
+				AE3299131BDA4CDE00AD74DC /* TriangularityTests */,
+				AE32991E1BDA4CDF00AD74DC /* TriangularityUITests */,
+				AE3298FD1BDA4CDE00AD74DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE3298FD1BDA4CDE00AD74DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE3298FC1BDA4CDE00AD74DC /* Triangularity.app */,
+				AE3299101BDA4CDE00AD74DC /* TriangularityTests.xctest */,
+				AE32991B1BDA4CDF00AD74DC /* TriangularityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE3298FE1BDA4CDE00AD74DC /* Triangularity */ = {
+			isa = PBXGroup;
+			children = (
+				AE3298FF1BDA4CDE00AD74DC /* AppDelegate.swift */,
+				AE3299011BDA4CDE00AD74DC /* ViewController.swift */,
+				AE3299031BDA4CDE00AD74DC /* Main.storyboard */,
+				AE3299061BDA4CDE00AD74DC /* Assets.xcassets */,
+				AE3299081BDA4CDE00AD74DC /* LaunchScreen.storyboard */,
+				AE32990B1BDA4CDE00AD74DC /* Info.plist */,
+			);
+			path = Triangularity;
+			sourceTree = "<group>";
+		};
+		AE3299131BDA4CDE00AD74DC /* TriangularityTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE3299141BDA4CDE00AD74DC /* TriangularityTests.swift */,
+				AE3299161BDA4CDE00AD74DC /* Info.plist */,
+			);
+			path = TriangularityTests;
+			sourceTree = "<group>";
+		};
+		AE32991E1BDA4CDF00AD74DC /* TriangularityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE32991F1BDA4CDF00AD74DC /* TriangularityUITests.swift */,
+				AE3299211BDA4CDF00AD74DC /* Info.plist */,
+			);
+			path = TriangularityUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE3298FB1BDA4CDD00AD74DC /* Triangularity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE3299241BDA4CDF00AD74DC /* Build configuration list for PBXNativeTarget "Triangularity" */;
+			buildPhases = (
+				AE3298F81BDA4CDD00AD74DC /* Sources */,
+				AE3298F91BDA4CDD00AD74DC /* Frameworks */,
+				AE3298FA1BDA4CDD00AD74DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Triangularity;
+			productName = Triangularity;
+			productReference = AE3298FC1BDA4CDE00AD74DC /* Triangularity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE32990F1BDA4CDE00AD74DC /* TriangularityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE3299271BDA4CDF00AD74DC /* Build configuration list for PBXNativeTarget "TriangularityTests" */;
+			buildPhases = (
+				AE32990C1BDA4CDE00AD74DC /* Sources */,
+				AE32990D1BDA4CDE00AD74DC /* Frameworks */,
+				AE32990E1BDA4CDE00AD74DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE3299121BDA4CDE00AD74DC /* PBXTargetDependency */,
+			);
+			name = TriangularityTests;
+			productName = TriangularityTests;
+			productReference = AE3299101BDA4CDE00AD74DC /* TriangularityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE32991A1BDA4CDE00AD74DC /* TriangularityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE32992A1BDA4CDF00AD74DC /* Build configuration list for PBXNativeTarget "TriangularityUITests" */;
+			buildPhases = (
+				AE3299171BDA4CDE00AD74DC /* Sources */,
+				AE3299181BDA4CDE00AD74DC /* Frameworks */,
+				AE3299191BDA4CDE00AD74DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE32991D1BDA4CDF00AD74DC /* PBXTargetDependency */,
+			);
+			name = TriangularityUITests;
+			productName = TriangularityUITests;
+			productReference = AE32991B1BDA4CDF00AD74DC /* TriangularityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE3298F41BDA4CDD00AD74DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "We Inc";
+				TargetAttributes = {
+					AE3298FB1BDA4CDD00AD74DC = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					AE32990F1BDA4CDE00AD74DC = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = AE3298FB1BDA4CDD00AD74DC;
+					};
+					AE32991A1BDA4CDE00AD74DC = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = AE3298FB1BDA4CDD00AD74DC;
+					};
+				};
+			};
+			buildConfigurationList = AE3298F71BDA4CDD00AD74DC /* Build configuration list for PBXProject "Triangularity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE3298F31BDA4CDD00AD74DC;
+			productRefGroup = AE3298FD1BDA4CDE00AD74DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE3298FB1BDA4CDD00AD74DC /* Triangularity */,
+				AE32990F1BDA4CDE00AD74DC /* TriangularityTests */,
+				AE32991A1BDA4CDE00AD74DC /* TriangularityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE3298FA1BDA4CDD00AD74DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE32990A1BDA4CDE00AD74DC /* LaunchScreen.storyboard in Resources */,
+				AE3299071BDA4CDE00AD74DC /* Assets.xcassets in Resources */,
+				AE3299051BDA4CDE00AD74DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE32990E1BDA4CDE00AD74DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE3299191BDA4CDE00AD74DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE3298F81BDA4CDD00AD74DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3299021BDA4CDE00AD74DC /* ViewController.swift in Sources */,
+				AE3299001BDA4CDE00AD74DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE32990C1BDA4CDE00AD74DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3299151BDA4CDE00AD74DC /* TriangularityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE3299171BDA4CDE00AD74DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3299201BDA4CDF00AD74DC /* TriangularityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE3299121BDA4CDE00AD74DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE3298FB1BDA4CDD00AD74DC /* Triangularity */;
+			targetProxy = AE3299111BDA4CDE00AD74DC /* PBXContainerItemProxy */;
+		};
+		AE32991D1BDA4CDF00AD74DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE3298FB1BDA4CDD00AD74DC /* Triangularity */;
+			targetProxy = AE32991C1BDA4CDF00AD74DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE3299031BDA4CDE00AD74DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE3299041BDA4CDE00AD74DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE3299081BDA4CDE00AD74DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE3299091BDA4CDE00AD74DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE3299221BDA4CDF00AD74DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE3299231BDA4CDF00AD74DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE3299251BDA4CDF00AD74DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Triangularity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sitdh.mobile.Triangularity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE3299261BDA4CDF00AD74DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Triangularity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sitdh.mobile.Triangularity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AE3299281BDA4CDF00AD74DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TriangularityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sitdh.mobile.TriangularityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Triangularity.app/Triangularity";
+			};
+			name = Debug;
+		};
+		AE3299291BDA4CDF00AD74DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TriangularityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sitdh.mobile.TriangularityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Triangularity.app/Triangularity";
+			};
+			name = Release;
+		};
+		AE32992B1BDA4CDF00AD74DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TriangularityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sitdh.mobile.TriangularityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Triangularity;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AE32992C1BDA4CDF00AD74DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TriangularityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sitdh.mobile.TriangularityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Triangularity;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE3298F71BDA4CDD00AD74DC /* Build configuration list for PBXProject "Triangularity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE3299221BDA4CDF00AD74DC /* Debug */,
+				AE3299231BDA4CDF00AD74DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE3299241BDA4CDF00AD74DC /* Build configuration list for PBXNativeTarget "Triangularity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE3299251BDA4CDF00AD74DC /* Debug */,
+				AE3299261BDA4CDF00AD74DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE3299271BDA4CDF00AD74DC /* Build configuration list for PBXNativeTarget "TriangularityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE3299281BDA4CDF00AD74DC /* Debug */,
+				AE3299291BDA4CDF00AD74DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE32992A1BDA4CDF00AD74DC /* Build configuration list for PBXNativeTarget "TriangularityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE32992B1BDA4CDF00AD74DC /* Debug */,
+				AE32992C1BDA4CDF00AD74DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE3298F41BDA4CDD00AD74DC /* Project object */;
+}
