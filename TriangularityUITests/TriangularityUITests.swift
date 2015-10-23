@@ -28,9 +28,25 @@ class TriangularityUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testAddValueIntoForm() {
+        
+        let app = XCUIApplication()
+        
+        let sideATextField = app.textFields["Side a"]
+        sideATextField.tap()
+        sideATextField.typeText("3")
+
+        
+        let sideBTextField = app.textFields["Side b"]
+        sideBTextField.tap()
+        sideBTextField.typeText("4")
+        
+        let sideCTextField = app.textFields["Side c"]
+        sideCTextField.tap()
+        sideCTextField.typeText("5")
+        app.buttons["Calculate"].tap()
+        
+        XCTAssertTrue(app.staticTexts["Right triangle"].exists)
     }
     
 }
