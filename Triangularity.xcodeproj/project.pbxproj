@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE22DEEE1BDA6D610014123E /* ShapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE22DEED1BDA6D610014123E /* ShapeTests.swift */; };
+		AE22DEF01BDA6DD90014123E /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE22DEEF1BDA6DD90014123E /* Shape.swift */; };
 		AE3299001BDA4CDE00AD74DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3298FF1BDA4CDE00AD74DC /* AppDelegate.swift */; };
 		AE3299021BDA4CDE00AD74DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3299011BDA4CDE00AD74DC /* ViewController.swift */; };
 		AE3299051BDA4CDE00AD74DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3299031BDA4CDE00AD74DC /* Main.storyboard */; };
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE22DEED1BDA6D610014123E /* ShapeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeTests.swift; sourceTree = "<group>"; };
+		AE22DEEF1BDA6DD90014123E /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		AE3298FC1BDA4CDE00AD74DC /* Triangularity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Triangularity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3298FF1BDA4CDE00AD74DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE3299011BDA4CDE00AD74DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				AE3298FF1BDA4CDE00AD74DC /* AppDelegate.swift */,
+				AE22DEEF1BDA6DD90014123E /* Shape.swift */,
 				AE3299011BDA4CDE00AD74DC /* ViewController.swift */,
 				AE3299031BDA4CDE00AD74DC /* Main.storyboard */,
 				AE3299061BDA4CDE00AD74DC /* Assets.xcassets */,
@@ -108,6 +113,7 @@
 		AE3299131BDA4CDE00AD74DC /* TriangularityTests */ = {
 			isa = PBXGroup;
 			children = (
+				AE22DEED1BDA6D610014123E /* ShapeTests.swift */,
 				AE3299161BDA4CDE00AD74DC /* Info.plist */,
 			);
 			path = TriangularityTests;
@@ -255,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE3299021BDA4CDE00AD74DC /* ViewController.swift in Sources */,
+				AE22DEF01BDA6DD90014123E /* Shape.swift in Sources */,
 				AE3299001BDA4CDE00AD74DC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE22DEEE1BDA6D610014123E /* ShapeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
