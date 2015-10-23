@@ -14,6 +14,7 @@
 		AE32990A1BDA4CDE00AD74DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3299081BDA4CDE00AD74DC /* LaunchScreen.storyboard */; };
 		AE3299151BDA4CDE00AD74DC /* TriangularityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3299141BDA4CDE00AD74DC /* TriangularityTests.swift */; };
 		AE3299201BDA4CDF00AD74DC /* TriangularityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE32991F1BDA4CDF00AD74DC /* TriangularityUITests.swift */; };
+		AE32992E1BDA4F6300AD74DC /* SideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE32992D1BDA4F6300AD74DC /* SideTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AE32991B1BDA4CDF00AD74DC /* TriangularityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriangularityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE32991F1BDA4CDF00AD74DC /* TriangularityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangularityUITests.swift; sourceTree = "<group>"; };
 		AE3299211BDA4CDF00AD74DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE32992D1BDA4F6300AD74DC /* SideTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				AE3299141BDA4CDE00AD74DC /* TriangularityTests.swift */,
+				AE32992D1BDA4F6300AD74DC /* SideTests.swift */,
 				AE3299161BDA4CDE00AD74DC /* Info.plist */,
 			);
 			path = TriangularityTests;
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					AE3298FB1BDA4CDD00AD74DC = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = N8R3JS4XVZ;
 					};
 					AE32990F1BDA4CDE00AD74DC = {
 						CreatedOnToolsVersion = 7.1;
@@ -265,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE32992E1BDA4F6300AD74DC /* SideTests.swift in Sources */,
 				AE3299151BDA4CDE00AD74DC /* TriangularityTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +404,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Triangularity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sitdh.mobile.Triangularity;
@@ -410,6 +416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Triangularity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sitdh.mobile.Triangularity;
