@@ -10,6 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var sideANumber: UITextField!
+    
+    @IBOutlet weak var sideBNumber: UITextField!
+    
+    @IBOutlet weak var sideCNumber: UITextField!
+    
+    @IBOutlet weak var shapeType: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +29,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func validateShapeSide(sender: UIButton) {
+        
+        self.shapeType.text = "Right triangle"
+    }
 
 }
 

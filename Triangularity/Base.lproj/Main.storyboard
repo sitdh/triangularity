@@ -49,6 +49,9 @@
                                 <rect key="frame" x="195" y="188" width="211" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Calculate"/>
+                                <connections>
+                                    <action selector="validateShapeSide:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zFP-RC-bie"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>
@@ -70,6 +73,12 @@
                             <constraint firstItem="8Ve-az-azJ" firstAttribute="leading" secondItem="LWu-bn-tMj" secondAttribute="leading" id="obY-wR-MvH"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="shapeType" destination="D3d-5Z-MYj" id="XlO-4h-tHV"/>
+                        <outlet property="sideANumber" destination="Op5-Y7-0Ym" id="xVI-MJ-t4M"/>
+                        <outlet property="sideBNumber" destination="rbM-70-yQB" id="93o-hq-Rcp"/>
+                        <outlet property="sideCNumber" destination="LWu-bn-tMj" id="Pt9-K6-1WQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
