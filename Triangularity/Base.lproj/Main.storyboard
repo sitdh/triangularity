@@ -16,12 +16,64 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Op5-Y7-0Ym">
+                                <rect key="frame" x="195" y="74" width="211" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="211" id="s1e-z1-K7V"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rbM-70-yQB">
+                                <rect key="frame" x="195" y="112" width="211" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LWu-bn-tMj">
+                                <rect key="frame" x="195" y="150" width="211" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D3d-5Z-MYj">
+                                <rect key="frame" x="195" y="226" width="211" height="76"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ve-az-azJ">
+                                <rect key="frame" x="195" y="188" width="211" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Calculate"/>
+                            </button>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LWu-bn-tMj" firstAttribute="trailing" secondItem="rbM-70-yQB" secondAttribute="trailing" id="0kJ-o8-MQH"/>
+                            <constraint firstItem="Op5-Y7-0Ym" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="54" id="1FL-Sd-tQG"/>
+                            <constraint firstItem="rbM-70-yQB" firstAttribute="top" secondItem="Op5-Y7-0Ym" secondAttribute="bottom" constant="8" id="3q9-1Q-XXX"/>
+                            <constraint firstItem="8Ve-az-azJ" firstAttribute="leading" secondItem="D3d-5Z-MYj" secondAttribute="leading" id="5Yp-R3-4jb"/>
+                            <constraint firstItem="D3d-5Z-MYj" firstAttribute="top" secondItem="8Ve-az-azJ" secondAttribute="bottom" constant="8" symbolic="YES" id="7ac-Rk-aCN"/>
+                            <constraint firstItem="8Ve-az-azJ" firstAttribute="top" secondItem="LWu-bn-tMj" secondAttribute="bottom" constant="8" symbolic="YES" id="Cpq-DF-b1Z"/>
+                            <constraint firstItem="LWu-bn-tMj" firstAttribute="leading" secondItem="rbM-70-yQB" secondAttribute="leading" id="FAt-cP-dbj"/>
+                            <constraint firstItem="8Ve-az-azJ" firstAttribute="trailing" secondItem="D3d-5Z-MYj" secondAttribute="trailing" id="FfF-2Y-WGw"/>
+                            <constraint firstItem="Op5-Y7-0Ym" firstAttribute="trailing" secondItem="rbM-70-yQB" secondAttribute="trailing" id="IJm-lZ-BDt"/>
+                            <constraint firstItem="Op5-Y7-0Ym" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LWy-bS-2Kz"/>
+                            <constraint firstItem="LWu-bn-tMj" firstAttribute="top" secondItem="rbM-70-yQB" secondAttribute="bottom" constant="8" symbolic="YES" id="QZC-wC-3zY"/>
+                            <constraint firstItem="Op5-Y7-0Ym" firstAttribute="leading" secondItem="rbM-70-yQB" secondAttribute="leading" id="c33-8F-dhN"/>
+                            <constraint firstItem="8Ve-az-azJ" firstAttribute="trailing" secondItem="LWu-bn-tMj" secondAttribute="trailing" id="ee0-fz-s4q"/>
+                            <constraint firstItem="8Ve-az-azJ" firstAttribute="leading" secondItem="LWu-bn-tMj" secondAttribute="leading" id="obY-wR-MvH"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="192" y="270"/>
         </scene>
     </scenes>
 </document>
