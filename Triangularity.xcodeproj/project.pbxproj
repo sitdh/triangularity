@@ -12,7 +12,6 @@
 		AE3299051BDA4CDE00AD74DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3299031BDA4CDE00AD74DC /* Main.storyboard */; };
 		AE3299071BDA4CDE00AD74DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3299061BDA4CDE00AD74DC /* Assets.xcassets */; };
 		AE32990A1BDA4CDE00AD74DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3299081BDA4CDE00AD74DC /* LaunchScreen.storyboard */; };
-		AE3299151BDA4CDE00AD74DC /* TriangularityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3299141BDA4CDE00AD74DC /* TriangularityTests.swift */; };
 		AE3299201BDA4CDF00AD74DC /* TriangularityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE32991F1BDA4CDF00AD74DC /* TriangularityUITests.swift */; };
 		AE32992E1BDA4F6300AD74DC /* SideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE32992D1BDA4F6300AD74DC /* SideTests.swift */; };
 /* End PBXBuildFile section */
@@ -43,7 +42,6 @@
 		AE3299091BDA4CDE00AD74DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE32990B1BDA4CDE00AD74DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE3299101BDA4CDE00AD74DC /* TriangularityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriangularityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE3299141BDA4CDE00AD74DC /* TriangularityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangularityTests.swift; sourceTree = "<group>"; };
 		AE3299161BDA4CDE00AD74DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE32991B1BDA4CDF00AD74DC /* TriangularityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriangularityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE32991F1BDA4CDF00AD74DC /* TriangularityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangularityUITests.swift; sourceTree = "<group>"; };
@@ -112,7 +110,6 @@
 		AE3299131BDA4CDE00AD74DC /* TriangularityTests */ = {
 			isa = PBXGroup;
 			children = (
-				AE3299141BDA4CDE00AD74DC /* TriangularityTests.swift */,
 				AE32992D1BDA4F6300AD74DC /* SideTests.swift */,
 				AE3299161BDA4CDE00AD74DC /* Info.plist */,
 			);
@@ -270,7 +267,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE32992E1BDA4F6300AD74DC /* SideTests.swift in Sources */,
-				AE3299151BDA4CDE00AD74DC /* TriangularityTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +487,7 @@
 				AE3299261BDA4CDF00AD74DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE3299271BDA4CDF00AD74DC /* Build configuration list for PBXNativeTarget "TriangularityTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +496,7 @@
 				AE3299291BDA4CDF00AD74DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE32992A1BDA4CDF00AD74DC /* Build configuration list for PBXNativeTarget "TriangularityUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +505,7 @@
 				AE32992C1BDA4CDF00AD74DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,12 +8,12 @@
 
 import XCTest
 
-@testable import Side
+@testable import Triangularity
 
 class SideTests: XCTestCase {
     
-    override func setup() {
-        super.setup()
+    override func setUp() {
+        super.setUp()
         
     }
     
@@ -23,8 +23,8 @@ class SideTests: XCTestCase {
         super.tearDown()
     }
     
-    func testSideShouldExists() {
-        let ด้าน = Side(20)
+    func testFunctionWork() {
+        XCTAssertTrue(true);
     }
     
 }
