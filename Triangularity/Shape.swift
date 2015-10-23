@@ -9,10 +9,23 @@
 import Foundation
 
 class Shape {
+    var sides: Array<Int> = []
     
-    let name: String
+    let name: String?
     
-    init(name assignedName: String) {
-        self.name = assignedName
+    var area: Int {
+        get {
+            return 0
+        }
+    }
+    
+    init(name: String) {
+        self.name = name
+    }
+    
+    func componentSides(sides: Int ...) {
+        for side in sides {
+            self.sides.append(side)
+        }
     }
 }
