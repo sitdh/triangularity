@@ -13,7 +13,6 @@
 		AE3299071BDA4CDE00AD74DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3299061BDA4CDE00AD74DC /* Assets.xcassets */; };
 		AE32990A1BDA4CDE00AD74DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3299081BDA4CDE00AD74DC /* LaunchScreen.storyboard */; };
 		AE3299201BDA4CDF00AD74DC /* TriangularityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE32991F1BDA4CDF00AD74DC /* TriangularityUITests.swift */; };
-		AE32992E1BDA4F6300AD74DC /* SideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE32992D1BDA4F6300AD74DC /* SideTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +45,6 @@
 		AE32991B1BDA4CDF00AD74DC /* TriangularityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriangularityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE32991F1BDA4CDF00AD74DC /* TriangularityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangularityUITests.swift; sourceTree = "<group>"; };
 		AE3299211BDA4CDF00AD74DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE32992D1BDA4F6300AD74DC /* SideTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +108,6 @@
 		AE3299131BDA4CDE00AD74DC /* TriangularityTests */ = {
 			isa = PBXGroup;
 			children = (
-				AE32992D1BDA4F6300AD74DC /* SideTests.swift */,
 				AE3299161BDA4CDE00AD74DC /* Info.plist */,
 			);
 			path = TriangularityTests;
@@ -266,7 +263,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE32992E1BDA4F6300AD74DC /* SideTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
