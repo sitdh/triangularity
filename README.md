@@ -1,2 +1,2 @@
-# tirangularity
+# Triangularity
 Software Testing: Tools 
