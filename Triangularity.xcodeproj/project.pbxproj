@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		AE22DEEE1BDA6D610014123E /* ShapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE22DEED1BDA6D610014123E /* ShapeTests.swift */; };
-		AE22DEF81BDA7F130014123E /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE22DEF71BDA7F130014123E /* Shape.swift */; };
 		AE22DEFA1BDA7F940014123E /* TriangularityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE22DEF91BDA7F940014123E /* TriangularityTests.swift */; };
-		AE22DEFC1BDA83740014123E /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE22DEFB1BDA83740014123E /* Triangle.swift */; };
 		AE3299001BDA4CDE00AD74DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3298FF1BDA4CDE00AD74DC /* AppDelegate.swift */; };
 		AE3299021BDA4CDE00AD74DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3299011BDA4CDE00AD74DC /* ViewController.swift */; };
 		AE3299051BDA4CDE00AD74DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3299031BDA4CDE00AD74DC /* Main.storyboard */; };
 		AE3299071BDA4CDE00AD74DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3299061BDA4CDE00AD74DC /* Assets.xcassets */; };
 		AE32990A1BDA4CDE00AD74DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3299081BDA4CDE00AD74DC /* LaunchScreen.storyboard */; };
 		AE3299201BDA4CDF00AD74DC /* TriangularityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE32991F1BDA4CDF00AD74DC /* TriangularityUITests.swift */; };
+		AE99BCAA1BDBD7DE006B5555 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE99BCA91BDBD7DE006B5555 /* Shape.swift */; };
+		AE99BCAC1BDBD811006B5555 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE99BCAB1BDBD811006B5555 /* Triangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +38,7 @@
 
 /* Begin PBXFileReference section */
 		AE22DEED1BDA6D610014123E /* ShapeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeTests.swift; sourceTree = "<group>"; };
-		AE22DEF71BDA7F130014123E /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		AE22DEF91BDA7F940014123E /* TriangularityTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangularityTests.swift; sourceTree = "<group>"; };
-		AE22DEFB1BDA83740014123E /* Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 		AE3298FC1BDA4CDE00AD74DC /* Triangularity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Triangularity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3298FF1BDA4CDE00AD74DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE3299011BDA4CDE00AD74DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +51,9 @@
 		AE32991B1BDA4CDF00AD74DC /* TriangularityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriangularityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE32991F1BDA4CDF00AD74DC /* TriangularityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangularityUITests.swift; sourceTree = "<group>"; };
 		AE3299211BDA4CDF00AD74DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE99BCA91BDBD7DE006B5555 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		AE99BCAB1BDBD811006B5555 /* Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		AEDF79561BDBAF87009D8D4C /* Triangularity.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Triangularity.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,14 +104,15 @@
 		AE3298FE1BDA4CDE00AD74DC /* Triangularity */ = {
 			isa = PBXGroup;
 			children = (
+				AEDF79561BDBAF87009D8D4C /* Triangularity.entitlements */,
 				AE3298FF1BDA4CDE00AD74DC /* AppDelegate.swift */,
 				AE3299011BDA4CDE00AD74DC /* ViewController.swift */,
 				AE3299031BDA4CDE00AD74DC /* Main.storyboard */,
 				AE3299061BDA4CDE00AD74DC /* Assets.xcassets */,
 				AE3299081BDA4CDE00AD74DC /* LaunchScreen.storyboard */,
 				AE32990B1BDA4CDE00AD74DC /* Info.plist */,
-				AE22DEF71BDA7F130014123E /* Shape.swift */,
-				AE22DEFB1BDA83740014123E /* Triangle.swift */,
+				AE99BCA91BDBD7DE006B5555 /* Shape.swift */,
+				AE99BCAB1BDBD811006B5555 /* Triangle.swift */,
 			);
 			path = Triangularity;
 			sourceTree = "<group>";
@@ -203,6 +205,14 @@
 					AE3298FB1BDA4CDD00AD74DC = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = N8R3JS4XVZ;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					AE32990F1BDA4CDE00AD74DC = {
 						CreatedOnToolsVersion = 7.1;
@@ -267,9 +277,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE3299021BDA4CDE00AD74DC /* ViewController.swift in Sources */,
-				AE22DEF81BDA7F130014123E /* Shape.swift in Sources */,
+				AE99BCAA1BDBD7DE006B5555 /* Shape.swift in Sources */,
 				AE3299001BDA4CDE00AD74DC /* AppDelegate.swift in Sources */,
-				AE22DEFC1BDA83740014123E /* Triangle.swift in Sources */,
+				AE99BCAC1BDBD811006B5555 /* Triangle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,11 +422,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Triangularity/Triangularity.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Triangularity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sitdh.mobile.Triangularity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ded55b5f-81cd-400e-8fe8-b2ad3adf88dc";
 			};
 			name = Debug;
 		};
@@ -424,11 +437,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Triangularity/Triangularity.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Triangularity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sitdh.mobile.Triangularity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ded55b5f-81cd-400e-8fe8-b2ad3adf88dc";
 			};
 			name = Release;
 		};
